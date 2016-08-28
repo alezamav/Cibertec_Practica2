@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPractica2", "WebPractica2\WebPractica2.csproj", "{399E4F0A-43CC-40D5-9D2D-7D5956224176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPractica2.Model", "WebPractica2.Model\WebPractica2.Model.csproj", "{95F7D17F-740D-4A45-85F7-CAF364BD4148}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPractica2.Repository", "WebPractica2.Repository\WebPractica2.Repository.csproj", "{F94FA029-7BA1-4979-8E75-A22A55E2A50D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{399E4F0A-43CC-40D5-9D2D-7D5956224176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{399E4F0A-43CC-40D5-9D2D-7D5956224176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{399E4F0A-43CC-40D5-9D2D-7D5956224176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{399E4F0A-43CC-40D5-9D2D-7D5956224176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95F7D17F-740D-4A45-85F7-CAF364BD4148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F7D17F-740D-4A45-85F7-CAF364BD4148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95F7D17F-740D-4A45-85F7-CAF364BD4148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95F7D17F-740D-4A45-85F7-CAF364BD4148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F94FA029-7BA1-4979-8E75-A22A55E2A50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F94FA029-7BA1-4979-8E75-A22A55E2A50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F94FA029-7BA1-4979-8E75-A22A55E2A50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F94FA029-7BA1-4979-8E75-A22A55E2A50D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
