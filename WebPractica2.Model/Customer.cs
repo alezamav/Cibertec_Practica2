@@ -17,6 +17,7 @@ namespace WebPractica2.Model
             Invoice = new HashSet<Invoice>();
         }
 
+        [Key]
         public int CustomerId { get; set; }
 
         [Required]

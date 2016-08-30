@@ -17,6 +17,7 @@ namespace WebPractica2.Model
             Playlist = new HashSet<Playlist>();
         }
 
+        [Key]
         public int TrackId { get; set; }
 
         [Required]

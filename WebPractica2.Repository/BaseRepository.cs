@@ -57,7 +57,7 @@ namespace WebPractica2.Repository
             return db.Set<T>().OrderByDescending(match).Take(size);
         }
 
-        public IEnumerable<T> PaginatedList(Expression<Func<T, DateTime>> match, int page, int size)
+        public IEnumerable<T> PaginatedList(Expression<Func<T, int>> match, int page, int size)
         {
             return db.Set<T>().OrderByDescending(match).Page(page, size);
         }

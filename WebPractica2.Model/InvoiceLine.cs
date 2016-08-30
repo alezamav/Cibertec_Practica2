@@ -10,6 +10,7 @@ namespace WebPractica2.Model
     [Table("InvoiceLine")]
     public partial class InvoiceLine
     {
+        [Key]
         public int InvoiceLineId { get; set; }
 
         public int InvoiceId { get; set; }

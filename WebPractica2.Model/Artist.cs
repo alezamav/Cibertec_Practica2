@@ -17,6 +17,7 @@ namespace WebPractica2.Model
             Album = new HashSet<Album>();
         }
 
+        [Key]
         public int ArtistId { get; set; }
 
         [StringLength(120)]

@@ -17,6 +17,7 @@ namespace WebPractica2.Model
             Track = new HashSet<Track>();
         }
 
+        [Key]
         public int AlbumId { get; set; }
 
         [Required]

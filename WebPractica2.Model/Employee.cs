@@ -18,6 +18,7 @@ namespace WebPractica2.Model
             Employee1 = new HashSet<Employee>();
         }
 
+        [Key]
         public int EmployeeId { get; set; }
 
         [Required]
